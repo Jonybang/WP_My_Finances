@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IsolatedStorageDeserializator.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Global.Fakes.ShimIsolatedStorageDeserializer`1">
+            <summary>Тип оболочки совместимости для IsolatedStorageDeserializer`1</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimIsolatedStorageDeserializer`1.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimIsolatedStorageDeserializer`1.#ctor(IsolatedStorageDeserializer{`0})">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimIsolatedStorageDeserializer`1.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimIsolatedStorageDeserializer`1.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimIsolatedStorageDeserializer`1.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimIsolatedStorageDeserializer`1.Constructor">
+            <summary>Задает оболочка совместимости IsolatedStorageDeserializer`1.IsolatedStorageDeserializer`1()</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimIsolatedStorageDeserializer`1.XmlDeserializeStringString">
+            <summary>Задает оболочка совместимости IsolatedStorageDeserializer`1.XmlDeserialize(String fileName, String pathToFile)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimIsolatedStorageDeserializer`1.XmlSerializeT0StringBooleanString">
+            <summary>Задает оболочка совместимости IsolatedStorageDeserializer`1.XmlSerialize(!0 obj, String fileName, Boolean isDeleteBeforeSerialize, String pathToFile)</summary>
+        </member>
+        <member name="T:Global.Fakes.ShimIsolatedStorageDeserializer`1.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimIsolatedStorageDeserializer`1.AllInstances.XmlDeserializeStringString">
+            <summary>Задает оболочка совместимости IsolatedStorageDeserializer`1.XmlDeserialize(String fileName, String pathToFile)</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimIsolatedStorageDeserializer`1.AllInstances.XmlSerializeT0StringBooleanString">
+            <summary>Задает оболочка совместимости IsolatedStorageDeserializer`1.XmlSerialize(!0 obj, String fileName, Boolean isDeleteBeforeSerialize, String pathToFile)</summary>
+        </member>
+        <member name="T:Global.Fakes.StubIsolatedStorageDeserializer`1">
+            <summary>Тип заглушки IsolatedStorageDeserializer`1</summary>
+        </member>
+        <member name="M:Global.Fakes.StubIsolatedStorageDeserializer`1.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Global.Fakes.StubIsolatedStorageDeserializer`1.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubIsolatedStorageDeserializer</summary>
+        </member>
+        <member name="P:Global.Fakes.StubIsolatedStorageDeserializer`1.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Global.Fakes.StubIsolatedStorageDeserializer`1.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Global.Fakes.StubIsolatedStorageDeserializer`1.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+    </members>
+</doc>
