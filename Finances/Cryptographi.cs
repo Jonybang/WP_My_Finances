@@ -5,6 +5,7 @@ using System.Text;
 using System.Security.Cryptography;
 using System.IO.IsolatedStorage;
 using System.IO;
+using IsolatedStorageDeserializator;
 
 namespace Finances
 {

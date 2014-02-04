@@ -8,6 +8,7 @@ using System.IO.IsolatedStorage;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
+using IsolatedStorageDeserializator;
 
 namespace Finances
 {

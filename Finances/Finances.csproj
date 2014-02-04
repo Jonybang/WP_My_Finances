@@ -52,10 +52,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\amChartsQuickCharts.1.1\lib\sl3-wp\AmCharts.Windows.QuickCharts.WP.dll</HintPath>
     </Reference>
-    <Reference Include="IsolatedStorageDeserializator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\IsolatedStorageDeserializator\IsolatedStorageDeserializator\Bin\Release\IsolatedStorageDeserializator.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Controls, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Phone.Controls.Toolkit">
@@ -110,6 +106,7 @@
     <Compile Include="IncomeOrOutlayPage.xaml.cs">
       <DependentUpon>IncomeOrOutlayPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="IsolatedStorageDeserializer.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
