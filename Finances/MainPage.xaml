@@ -167,13 +167,5 @@
                 </chart:SerialChart>                
             </Grid>
         </controls:PivotItem>
-        <controls:PivotItem Header="Отладка" Visibility="Collapsed">
-            <StackPanel HorizontalAlignment="Left" Height="535" VerticalAlignment="Top" Width="456">
-                <TextBlock TextWrapping="Wrap" Text="Сохранить текущие счета как"/>
-                <TextBox x:Name="NDaysTextbox" Height="72" TextWrapping="Wrap" Text="1" Margin="0,0,341,0"/>
-                <TextBlock TextWrapping="Wrap" Text="дней назад" Margin="115,-75,220,0" Height="28"/>
-                <Button Content="Ok" Margin="213,-71,0,0" RenderTransformOrigin="0.499,0.007" Click="Button_Click_1"/>
-            </StackPanel>
-        </controls:PivotItem>
     </controls:Pivot>
 </phone:PhoneApplicationPage>

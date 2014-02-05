@@ -262,12 +262,6 @@ namespace Finances
         }
         #endregion
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            double n = double.Parse(NDaysTextbox.Text);
-            ArticleOperations.SetCurrentAccountsStatusToList(n);
-        }
-
         private void NavigateToOptionsPage_Click(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/OptionsPage.xaml", UriKind.RelativeOrAbsolute));
